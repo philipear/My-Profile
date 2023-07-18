@@ -8,7 +8,7 @@
 
 body {
   font-size: 100%;
-  background:linear-gradient(68.15deg, #FFF7DF 20%, #2f2325 80%);
+  background:linear-gradient(65.20deg, #1D5B79 25%, #468B97 25%, #EF6262 25%, #F3AA60 25%);
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -23,7 +23,8 @@ body {
 
 .imagem-cabecalho {
   border-radius:50%;
-  border:3px solid #FFF7DF;
+  border:4px solid #FFF7DF;
+  background:linear-gradient(55.50deg, #CCD6A6 50%, #DAE2B6 20%, #F4EAD5 20%, #FFFBE9 10%);
   width:150px;
   height:150px;
   margin: 10px;
@@ -41,27 +42,29 @@ body {
   font-weight:700;
   font-size:1.5em;
   font-family:'Tektur', cursive;
-  color: #2f2325;
+  color: #FFF7DF;
   line-height: 1.3em;
 }
 
 .item-cabecalho {
   display: flex;
   font-size: 1em;
-  color: #1E1E1E;
+  color: #FFF7DF;
   line-height: 1.2em;
   font-family: 'Fraunces', serif;
 }
 
 .conteudo {
   border-top: 2px solid #FFF7DF;
+  margin:10px;
 }
 
 .conteudo-principal {
  display: flex;
+ flex-wrap: wrap;
  align-items: center;
  flex-direction: row;
- justify-content: center;
+ 
  margin: 10px;
  padding: 10px;
 }
@@ -70,7 +73,7 @@ body {
   font-weight:700;
   font-size:1.5em;
   font-family:'Tektur', cursive;
-  color: #2f2325;
+  color: #FFF7DF;
   font-size: 1.6em;
   margin-bottom: 10px;
   text-align:start;
@@ -81,24 +84,27 @@ body {
   flex-direction: column;
   line-height: 1.3em;
   font-family: 'Fraunces', serif;
-  color: #2f2325;
+  color: #FFF7DF;
   margin: 5px;
   padding: 5px;
 }
 
 .imagem-conteudo {
   border-radius:50%;
-  border:3px solid #FFF7DF;
+  border:4px solid #FFF7DF;
   width:200px;
   height:200px;
   margin: 10px;
+  border-radius: 50%;
+  background:linear-gradient(55.50deg, #CCD6A6 50%, #DAE2B6 20%, #F4EAD5 20%, #FFFBE9 10%);
 }
 
 .conteudo-rodape {
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
-  border-top: 1px solid #FFF7DF;
+  border-top: 2px solid #FFF7DF;
+  margin: 10px;
 }
 
 .rodape {
@@ -118,11 +124,12 @@ body {
 
 .logo-rodape {
   border-radius:50%;
-  border:3px solid #FFF7DF;
+  border:4px solid #FFF7DF;
   width:100px;
   height:100px;
   text-align: center;
   margin: 10px;
+  background:linear-gradient(55.50deg, #CCD6A6 50%, #DAE2B6 20%, #F4EAD5 20%, #FFFBE9 10%);
 }
 
 .logo-rodape:hover:not(:hover) {
@@ -130,13 +137,14 @@ body {
 }
 img:hover {
   scale:1.1;
-  background-color: #FFF7DF;
+  
 }
 
 .copy {
   color: #2f2325;
   font-size: 1em;
 }
+
 
 
 
